@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
 .App {
   text-align: center;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
 
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 3;
+}
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+}
+.dektopMenuBtn {
+  color: white;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: rgba(245, 48, 48, 0.539);
+  border: 2px solid rgba(245, 48, 48, 0.539);
+  border-radius: 0.6em;
+  transition: .2s ease-in-out;
+	
+}
+.dektopMenuBtn:hover {
+  color: rgba(245, 48, 48, 0.539);
 }

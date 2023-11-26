@@ -1,15 +1,19 @@
+import { Link } from "react-scroll";
+
 const Navbar = () => {
-  const [active, setActive] = useState('');
-  const [toggle, setToggle] = useState(false);
-
   return (
-    <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-
+    <nav className='navbar'>
+      <p className="logo">Wiktor.dev</p>
+        <div className='desktopMenu'>
+          <Link className="desktopMenuListItem">Home</Link>
+          <Link className="desktopMenuListItem">About</Link>
+          <Link className="desktopMenuListItem">Projects</Link>
+          <Link className="desktopMenuListItem">Contact</Link>
+          </div>
+        <button className="dektopMenuBtn">
+           <img src="" alt="" className="desktopMenuImg" />Hire Me </button>
+    
     </nav>
-  );
-};
-
+  )
+  }
 export default Navbar;
