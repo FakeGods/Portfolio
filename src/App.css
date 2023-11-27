@@ -13,14 +13,21 @@
 }
 
 .navbar {
-  height: 5rem;
-  width: 100vw;
+  height: auto;
+  width: 100%;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   top: 0;
   z-index: 3;
+  left: 0;
+  box-shadow: 0 0 10px rgba(168, 163, 163, 0.09);
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  
 }
 .desktopMenuListItem {
   margin: 1rem;
@@ -40,10 +47,37 @@
   background-position: 100%;
   background-image: linear-gradient(45deg,rgba(245, 48, 48, 0.539) 50%, transparent 50%);
   background-size: 400%;
-  
+  font-weight: bold;
 	
 }
 
 .dektopMenuBtn:hover {
   background-position: 0; 
 }
+#header {
+  height: calc(90vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0;
+  overflow: hidden;
+}
+.headerContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 1.75rem;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  
+  
+}
+
+.hello{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(245, 48, 48, 0.539);
+  
+}
+
