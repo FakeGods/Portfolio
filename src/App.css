@@ -28,13 +28,19 @@
   font-size: 1.3rem;
   font-weight: bold;
   
+  
 }
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;
+  color: rgb(157, 154, 154);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .23s;
+  
 }
 .dektopMenuBtn {
-  color: white;
+  color: rgb(29, 28, 28);
   padding: 12px 24px;
   cursor: pointer;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
@@ -80,4 +86,3 @@
   color: rgba(245, 48, 48, 0.539);
   
 }
-

@@ -1,9 +1,9 @@
 import React from "react";
 
 
-const Header =() => {
+const Header = () => {
   return (
-    <section id="header">
+    <section id="home">
       <div className="headerContent">
         <span className="hello">Front-End React Developer</span>
         <p className="headerText">Hi. I'm Wiktor Leszkowicz. A begginer React developer basen in Wrocław, Poland.</p>
@@ -13,4 +13,4 @@ const Header =() => {
   )
 }
 
-export default Header
+export default Header;
