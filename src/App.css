@@ -1,17 +1,8 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +15,63 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.navbar {
+  height: 4rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 3;
+  left: 0;
+  box-shadow: 0 0 10px rgba(168, 163, 163, 0.09);
+  
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+  color: rgb(157, 154, 154);
+  font-weight: 60;
+  transition: all .23s;
+  text-align: right;
+  width: 120%;
+  
+}
+.desktopMenuBtn {
+  color: rgb(29, 28, 28);
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: rgba(245, 48, 48, 0.539);
+  border: 2px solid rgba(245, 48, 48, 0.539);
+  border-radius: 0.6em;
+  transition: background 300ms ease-in-out;
+  background-position: 100%;
+  background-image: linear-gradient(45deg,rgba(245, 48, 48, 0.539) 50%, transparent 50%);
+  background-size: 400%;
+  font-weight: bold;
+}
+.projects-grid {
+  grid-gap: 5rem;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  height: auto;
+  width: 100%;
 }
