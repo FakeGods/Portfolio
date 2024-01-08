@@ -33,9 +33,10 @@
   justify-content: space-between;
   top: 0;
   z-index: 3;
-  left: 0;
-  box-shadow: 2 1 0px rgb(14 165 233);
-  
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(161, 181, 190);
+ 
 }
 .logo {
   font-size: 1.3rem;
@@ -45,7 +46,7 @@
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;
-  color: rgb(157, 154, 154);
+  color: rgb(161, 181, 190);
   font-weight: 60;
   transition: all .23s;
   text-align: right;
@@ -76,4 +77,29 @@
   grid-template-rows: auto auto;
   height: auto;
   width: 100%;
+}
+
+
+.port {
+  color: rgb(14 165 233);
+}
+
+.smart {
+  color: rgb(161, 181, 190);
+}
+.hello {
+  color: rgb(14 165 233);
+}
+
+.headerText {
+  color: rgb(161, 181, 190);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: rgb(161, 181, 190);
+  
 }

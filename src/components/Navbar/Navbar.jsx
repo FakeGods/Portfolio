@@ -10,9 +10,7 @@ const Navbar = () => {
           <Link className="desktopMenuListItem" href="#projects">Projects</Link>
           <Link className="desktopMenuListItem" href="#contact">Contact</Link>
           </div>
-        <button className="desktopMenuBtn">
-           <img src="" alt="" className="desktopMenuImg" />Hire Me </button>
-    
+    a
     </nav>
   )
   }
