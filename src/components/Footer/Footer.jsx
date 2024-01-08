@@ -8,11 +8,8 @@ const Footer = () => {
         <div className="footer1">
             Copyright © 2024. All rights are reserved 
         </div>
-        <div className="footer_socials">
-            <FiGithub />
-            <CiLinkedin />
         </div>
-        </div>
+    
     )
 }
 

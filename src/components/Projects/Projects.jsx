@@ -4,7 +4,7 @@ const Projects = () => {
             <div className="container">
                 <div className="project-content">
                     <p className="port">portfolio</p>
-                    <h3 className="smart">(something smart here)</h3>
+                    <h3 className="smart">"A creative project is a moving target. You never end up where you start" ~Evangeline Lily</h3>
                     <div className="projects-grid">
                         <div className="project"></div>
                             <div className="project_img"></div>
