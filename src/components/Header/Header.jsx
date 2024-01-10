@@ -12,7 +12,7 @@ const Header = () => {
           <p>Tech Stack</p>
           <div className="logos">
             <ul>
-              <li> <img src="https://skillicons.dev/icons?i=github,react,docker,javascript,html,css" /></li>
+             <img src="https://skillicons.dev/icons?i=github,react,docker,javascript,html,css" />
             </ul>
           </div>
         </div>
