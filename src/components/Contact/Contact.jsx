@@ -12,9 +12,9 @@ const Contact = () => {
     <h3>Hit me up! 👇</h3>
     <div className="contact_icons">
       <div className="contact_box">
-      <GoMail size='5rem'/>
-      <CiLinkedin size='5rem' />
-      <VscGithubAlt size='5rem' />
+      <GoMail size='7rem'/>
+      <CiLinkedin size='7rem' />
+      <VscGithubAlt size='7rem' />
       
       
       </div>
