@@ -94,3 +94,16 @@ font-style: normal;
   color: rgb(25, 25, 25);
 }
 
+.project-content p {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+ 
+}
+.project-content h3 {
+  font-size: 2rem;
+  margin-bottom: 6rem;
+  font-style: italic;
+  color: rgb(70, 68, 68);
+}
