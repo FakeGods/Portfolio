@@ -18,7 +18,7 @@ const Hero = () => {
           <p>Tech Stack</p>
           <div className="logos">
             <ul>
-              <img src="https://skillicons.dev/icons?i=react,javascript,html,css,docker,github" alt="logoss"/>
+              <img src="https://skillicons.dev/icons?i=react,javascript,html,css,docker,github" alt="skill-icon"/>
             </ul>
           </div>
         </div>
