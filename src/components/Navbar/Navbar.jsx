@@ -1,16 +1,17 @@
-import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <p className="logo">LESZKW</p>
-        <div className='desktopMenu'>
-          <Link className="desktopMenuListItem" href="#home">Home</Link>
-          <Link className="desktopMenuListItem" href="#about">About</Link>
-          <Link className="desktopMenuListItem" href="#projects">Projects</Link>
-          <Link className="desktopMenuListItem" href="#contact">Contact</Link>
-        </div>
+        <ul className='desktopMenu'>
+          <li><a className="desktopMenuListItem" href="#home">Home</a> </li>
+          <li><a className="desktopMenuListItem" href="#about">About</a> </li>
+          <li><a className="desktopMenuListItem" href="#projects">Projects</a></li>
+          <li><a className="desktopMenuListItem" href="#contact">Contact</a></li>
+        </ul>
     </nav>
   )
+  
   }
 export default Navbar;

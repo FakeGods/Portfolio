@@ -4,7 +4,6 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="container">
-      
         <div className="content">
           <div className="hero-main">
             <div className="hero-text">
@@ -13,14 +12,14 @@ const Hero = () => {
             </div>
             <div className="hero-img"></div>
           </div>
-        </div>
-        <div className="skills">
+          <div className="skills">
           <p>Tech Stack</p>
           <div className="logos">
             <ul>
               <img src="https://skillicons.dev/icons?i=react,javascript,html,css,docker,github" alt="skill-icon"/>
             </ul>
           </div>
+        </div>
         </div>
       </div>
     </section>

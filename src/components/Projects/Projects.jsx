@@ -13,12 +13,14 @@ const Projects = () => {
           </h3>
           <div className="projects-grid">
             <div className="pro pro__1 undefined">
-            <img src={Budget} alt="pro__img"></img>
-            <div className="pro__text">
-              <h3>Tytuł
-                <span>(Month)</span>
-              </h3>
-              <p>Co to kurwa jest</p>
+              <div className="pro__img">
+                <img src={Budget} alt="pro__im"></img>
+                </div>
+              <div className="pro__text">
+                <h3>Tytuł
+                  <span>(Month)</span>
+                </h3>
+                <p>Co to kurwa jest</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
