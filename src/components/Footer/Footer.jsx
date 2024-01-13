@@ -1,6 +1,5 @@
 import React from "react";
-import { FiGithub } from "react-icons/fi";
-import { CiLinkedin } from "react-icons/ci";
+
 
 const Footer = () => {
   return (

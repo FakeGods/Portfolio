@@ -12,12 +12,29 @@ const Projects = () => {
             start" ~Evangeline Lily
           </h3>
           <div className="projects-grid">
-            <div className="project"></div>
-            <img src={Budget} className="project_img"></img>
-            <div className="project_text"></div>
-            <div className="project"></div>
-            <img src={Currency} className="project_img2"></img>
-            <div className="project_text"></div>
+            <div className="pro pro__1 undefined">
+            <img src={Budget} alt="pro__img"></img>
+            <div className="pro__text">
+              <h3>Tytuł
+                <span>(Month)</span>
+              </h3>
+              <p>Co to kurwa jest</p>
+              <div className="stack"></div>
+              <div className="links"></div>
+            </div>
+            </div>
+            <div className="pro pro__1 reserved-proj">
+            <img src={Currency} alt="pro__img"></img>
+            <div className="pro__text">
+            <h3>Tytuł
+                <span>(Month)</span>
+              </h3>
+              <p>Co to kurwa jest</p>
+              <div className="stack"></div>
+              <div className="links"></div>
+            </div>
+            
+            </div>
           </div>
         </div>
       </div>

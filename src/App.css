@@ -9,29 +9,14 @@ font-family: "aileron", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
-
-.App-header {
- 
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  background-color:  rgb(15 23 42);
-}
-
 * {
   padding: 0 4%;
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color:  rgb(240, 240, 240);
-  
  }
- 
-
-.navbar {
-  height: 4rem;
+ .navbar {
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,13 +24,12 @@ font-style: normal;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: rgb(161, 181, 190);
- 
+  width: 100%;
 }
 .logo {
   font-size: 1.3rem;
   font-weight: bold;
   color: rgb(15, 15, 15);
-
 }
 .desktopMenuListItem {
   margin: 0.5rem;
@@ -54,7 +38,69 @@ font-style: normal;
   font-weight: 100;
   font-size: medium;
 }
-
+.container {
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 4rem;
+}
+.content {
+  align-items: center;
+  display: flex;
+  gap: 10rem;
+  height: 65rem;
+  justify-content: center;
+  position: relative;
+}
+.hero-main {
+  align-items: center;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  position: relative;
+}
+.hero-text h1 {
+  color: #2d2e32;
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.hero-text p {
+  color: #555;
+  font-family: Mulish,sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  position: relative;
+}
+.skills {
+  align-items: center;
+  bottom: 0;
+  color: #767676;
+  display: flex;
+  font-size: 1.7rem;
+  left: 0;
+  position: absolute;
+}
+.skills p {
+  border-right: 2px solid rgba(45,46,50,.5);
+  color: #2d2e32;
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  margin-right: 7rem;
+  padding-right: 2rem;
+}
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  list-style: none;
+}
 .projects-grid {
   grid-gap: 5rem;
   display: grid;
@@ -106,4 +152,50 @@ font-style: normal;
   margin-bottom: 6rem;
   font-style: italic;
   color: rgb(70, 68, 68);
+}
+.projects-grid {
+  grid-gap: 5rem;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  height: auto;
+  width: 100%;
+}
+
+.projects-grid .pro__1 {
+  flex-direction: row;
+  gap: 2rem;
+  height: 15rem;
+  padding: 2rem;
+}
+.projects-grid .pro {
+  background-color: #fff;
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  display: flex;
+}
+.projects-grid .pro__img {
+  background-color: hsla(0,0%,46%,.2);
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  height: auto;
+  overflow: hidden;
+  width: 53rem;
+}
+.projects-grid .pro__text {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 30rem;
+}
+
+.reversed-proj {
+  flex-direction: row-reverse!important;
+}
+
+.about {
+  padding: 15rem 0;
 }
