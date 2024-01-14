@@ -116,12 +116,6 @@
   list-style: none;
 }
 
-
-
-.port {
-  color: #e66f00;
-}
-
 .smart {
   color: rgb(161, 181, 190);
 }
@@ -133,19 +127,11 @@
   color: rgb(25, 25, 25);
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-color: rgb(161, 181, 190);
-  
- 
-}
+
 .smart {
   color: rgb(25, 25, 25);
 }
-.project {
+.projects {
   padding: 15rem 0;
 }
 .project-content {
@@ -153,11 +139,11 @@
   flex-direction: column;
 }
 .project-content p {
+  color: #4F6F52;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
- 
 }
 .project-content h3 {
   font-size: 2.5rem;
@@ -241,4 +227,14 @@
 
 .about {
   padding: 15rem 0;
+}
+.footer {
+  align-items: center;
+  display: flex;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: rgb(161, 181, 190);
+}
+.footer h3 {
+  font-size: 1rem;
 }
