@@ -6,8 +6,8 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h3>About me</h3>
-            <h4>something</h4>
+            <h3>about me</h3>
+            <h4>Something smart</h4>
             <p>Something more?</p>
           </div>
         </div>

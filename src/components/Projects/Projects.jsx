@@ -23,8 +23,10 @@ const Projects = () => {
               <div className="links"></div>
             </div>
             </div>
-            <div className="pro pro__1 reserved-proj">
-              <img src={Currency} alt="pro__img"></img>
+            <div className="pro pro__1 reversed-proj">
+            <div className="pro__img">
+              <img src={Currency} alt="pro__im"></img>
+              </div>
               <div className="pro__text">
                 <h3>Tytuł</h3>
                 <p>Co to kurwa jest</p>

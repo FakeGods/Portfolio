@@ -9,13 +9,12 @@ const Hero = () => {
             <div className="hero-text">
               <h1>Hello there, I'm Wiktor Leszkowicz 👋</h1>
               <p>A beginner Front-end React Developer from Wrocław, Poland.</p>
-              <p>Tech Stack</p>
+              <p1>Tech Stack</p1>
             </div>
             <div className="hero-img"></div>
             
           </div>
           <div className="skills">
-          <p>Tech Stack</p>
           <div className="logos">
             <ul>
               <img src="https://skillicons.dev/icons?i=react,javascript,html,css,docker,github" alt="skill-icon"/>
