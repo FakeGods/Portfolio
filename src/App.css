@@ -1,8 +1,4 @@
-.App {
-  text-align: center;
-  
-  
-}
+
 .font-link {
   font-family: "aileron", sans-serif;
   font-weight: 400;
@@ -13,6 +9,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color:  rgb(240, 240, 240);
+  max-width: 100%;
  }
  .navbar {
   height: auto;
@@ -24,8 +21,10 @@
   border-bottom-width: 1px;
   border-color: rgb(161, 181, 190);
   width: 100%;
+
   
 }
+
 .logo {
   font-size: 1.3rem;
   font-weight: bold;
@@ -47,14 +46,14 @@
   list-style: none;
 }
 .navbar ul a {
-  font-weight: 600;
+  font-weight: 500;
   transition: all .23s;
   text-decoration: none;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 107rem;
+  max-width: 100%;
   padding: 0 4rem;
 }
 .content {
@@ -102,14 +101,11 @@
   position: absolute;
 }
 .skills p {
-  border-right: 2px solid rgba(45,46,50,.5);
   color: #2d2e32;
-  font-family: Mulish,sans-serif;
   font-weight: 600;
-  margin-right: 7rem;
   padding-right: 2rem;
 }
-.skills ul {
+.logos ul {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -127,10 +123,38 @@
   color: rgb(25, 25, 25);
 }
 
-
 .smart {
   color: rgb(25, 25, 25);
 }
+.about {
+  padding: 15rem 0;
+}
+.about-content {
+  align-items: center;
+  justify-content: center;
+}
+.about-text h3 {
+  color: #4F6F52;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.about-text h4 {
+  color: #2d2e32;
+  font-family: Poppins,sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.about-text p {
+  color: #767676;
+  font-family: Mulish,sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .projects {
   padding: 15rem 0;
 }
@@ -162,15 +186,16 @@
 
 .projects-grid .pro__1 {
   flex-direction: row;
-  gap: 8rem;
-  height: 40rem;
-  padding: 2rem;
+  gap: 4rem;
+  height: 30rem;
+  padding: 1.5rem;
 }
 .projects-grid .pro {
   background-color: #fff;
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   display: flex;
+  
 }
 .projects-grid .pro__img {
   background-color: hsla(0,0%,46%,.2);
@@ -178,7 +203,7 @@
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   height: auto;
   overflow: hidden;
-  width: 53rem;
+  width: 100%;
 }
 .projects-grid .pro__img {
   height: auto;
@@ -208,7 +233,7 @@
   text-transform: uppercase;
 }
 .projects-grid .pro__text p {
-  color: #767676;
+  color: #4F6F52;
   font-size: 1.7rem;
   font-weight: 500;
   text-align: center;
@@ -224,7 +249,52 @@
 .reversed-proj {
   flex-direction: row-reverse!important;
 }
-
+.contact {
+  padding: 11rem 0;
+}
+.contact__content {
+  display: flex;
+  flex-direction: column;
+}
+.contact__title p {
+  color: #4F6F52;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.contact__title h3 {
+  color: #2d2e32;
+  font-size: 2.5rem;
+}
+.contact__icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  margin-top: 6rem;
+}
+.contact__icon-box {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+.contact__icon-box span {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  color: #4F6F52;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  width: 5rem;
+}
+.contact__info a, .contact__info p {
+  color: #767676;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
 .about {
   padding: 15rem 0;
 }
@@ -238,3 +308,4 @@
 .footer h3 {
   font-size: 1rem;
 }
+

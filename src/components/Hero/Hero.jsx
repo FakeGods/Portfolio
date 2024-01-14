@@ -9,8 +9,10 @@ const Hero = () => {
             <div className="hero-text">
               <h1>Hello there, I'm Wiktor Leszkowicz 👋</h1>
               <p>A beginner Front-end React Developer from Wrocław, Poland.</p>
+              <p>Tech Stack</p>
             </div>
             <div className="hero-img"></div>
+            
           </div>
           <div className="skills">
           <p>Tech Stack</p>

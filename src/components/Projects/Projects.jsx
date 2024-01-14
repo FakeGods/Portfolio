@@ -17,21 +17,17 @@ const Projects = () => {
                 <img src={Budget} alt="pro__im"></img>
                 </div>
               <div className="pro__text">
-                <h3>Tytuł
-                  <span>(Month)</span>
-                </h3>
+                <h3>Tytuł </h3>
                 <p>Co to kurwa jest</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
             </div>
             <div className="pro pro__1 reserved-proj">
-            <img src={Currency} alt="pro__img"></img>
-            <div className="pro__text">
-            <h3>Tytuł
-                <span>(Month)</span>
-              </h3>
-              <p>Co to kurwa jest</p>
+              <img src={Currency} alt="pro__img"></img>
+              <div className="pro__text">
+                <h3>Tytuł</h3>
+                <p>Co to kurwa jest</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
