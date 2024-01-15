@@ -1,4 +1,3 @@
-
 .font-link {
   font-family: "aileron", sans-serif;
   font-weight: 400;
@@ -8,10 +7,10 @@
   padding: 0 4%;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color:  rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
   max-width: 100%;
- }
- .navbar {
+}
+.navbar {
   position: fixed;
   height: auto;
   display: flex;
@@ -23,8 +22,6 @@
   border-color: rgb(161, 181, 190);
   width: 70%;
   z-index: 300;
-  
-  
 }
 
 .logo {
@@ -39,7 +36,7 @@
   color: rgb(70, 68, 68);
   font-weight: 100;
   font-size: medium;
-  transition: all .23s;
+  transition: all 0.23s;
   list-style: none;
   display: flex;
 }
@@ -49,8 +46,35 @@
 }
 .navbar ul a {
   font-weight: 500;
-  transition: all .23s;
+  transition: all 0.23s;
   text-decoration: none;
+}
+@media (min-width: 900px) {
+  .mobile-menu {
+    position: flex;
+  }
+}
+.mobile-menu {
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+.mobile-nav {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  z-index: 300;
+}
+.open-menu {
+  left: 0!important;
 }
 
 .container {
@@ -65,6 +89,13 @@
   height: 40rem;
   justify-content: center;
   position: relative;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: relative;
+  width: 100%;
 }
 .hero-main {
   align-items: center;
@@ -84,7 +115,6 @@
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 1.6;
-  
 }
 .hero-text p1 {
   color: #2d2e32;
@@ -94,30 +124,39 @@
 }
 .hero-text {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   max-width: 40rem;
   position: relative;
-  
 }
 .skills {
   align-items: center;
-  bottom: 13%;
+  bottom: 0;
   color: #767676;
   display: flex;
   font-size: 1.7rem;
-  left:12.5%;
+  left: 0;
   position: absolute;
 }
+.skills p {
 
-.about {
-  padding: 15rem 0;
+  color: #2d2e32;
+  font-weight: 600;
+  
 }
+.logos {
+  color: #767676;
+  display: flex;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+
 .about-content {
   align-items: center;
   justify-content: center;
 }
 .about-text h3 {
-  color: #4F6F52;
+  color: #4f6f52;
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -144,11 +183,11 @@
   flex-direction: column;
 }
 .project-content p {
-  color: #4F6F52;
+  color: #4f6f52;
   font-size: 1.7rem;
   font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 .project-content h3 {
   font-size: 1.4rem;
@@ -176,14 +215,13 @@
 .projects-grid .pro {
   background-color: #fff;
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  
 }
 .projects-grid .pro__img {
-  background-color: hsla(0,0%,46%,.2);
+  background-color: hsla(0, 0%, 46%, 0.2);
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: auto;
   overflow: hidden;
   position: relative;
@@ -195,7 +233,7 @@
 .projects-grid .pro__img img {
   height: 100%;
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 .projects-grid .pro__text {
   display: flex;
@@ -218,25 +256,24 @@
   text-transform: uppercase;
 }
 .projects-grid .pro__text p {
-  color: #4F6F52;
+  color: #4f6f52;
   font-size: 1.7rem;
   font-weight: 500;
   text-align: center;
   text-transform: none;
 }
 .reversed-proj {
-  flex-direction: row-reverse!important;
+  flex-direction: row-reverse !important;
 }
 .contact {
   padding: 11rem 0;
 }
 .contact__content {
-
   display: flex;
   flex-direction: column;
 }
 .contact__title p {
-  color: #4F6F52;
+  color: #4f6f52;
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -262,12 +299,12 @@
 .contact__icon-box span {
   align-items: center;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   height: 5rem;
   justify-content: center;
   width: 5rem;
-  color:#2d2e32;
+  color: #2d2e32;
 }
 .contact__icon-box a {
   color: #2d2e32;
@@ -289,4 +326,3 @@
 .footer h3 {
   font-size: 1rem;
 }
-
