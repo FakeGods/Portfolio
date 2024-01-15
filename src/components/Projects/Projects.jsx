@@ -17,8 +17,8 @@ const Projects = () => {
                 <img src={Budget} alt="pro__im"></img>
                 </div>
               <div className="pro__text">
-                <h3>Tytuł </h3>
-                <p>Co to kurwa jest</p>
+                <h3>Budget </h3>
+                <p>Budget app made using HTML, CSS and JavaScript.</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
@@ -28,8 +28,8 @@ const Projects = () => {
               <img src={Currency} alt="pro__im"></img>
               </div>
               <div className="pro__text">
-                <h3>Tytuł</h3>
-                <p>Co to kurwa jest</p>
+                <h3>Currency Converter</h3>
+                <p>App made in React with usage of banking Api.</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
