@@ -14,18 +14,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__icons">
-            <div className="contact__icons-box">
-              <span><GoMail size="7rem" href="mailto:w.leszkowicz99@gmail.com" /></span>
+            <div className="contact__icon-box">
+              <a href="mailto:w.leszkowicz99@gmail.com">
+                <span><GoMail size="3rem"  /></span>
+              </a>
             </div>
-            <div className="contact__icons-box">
-              <span> <CiLinkedin size="7rem" /></span>
+            <div className="contact__icon-box">
+            <a href="https://www.linkedin.com/in/wiktor-leszkowicz-70aa44262/">
+              <span> <CiLinkedin size="3rem"/></span>
+              </a>
             </div>
-            <div className="contact__icons-box">
-              <span><VscGithubAlt size="7rem" /></span>
-              <div className="contact__info">
-                <h3>Mail</h3>
-                <a href="mailto:w.leszkowicz99@gmail.com">w.leszkowicz99@gmail.com</a>
-              </div>
+            <div className="contact__icon-box">  
+            <a href="https://github.com/FakeGods">   
+                <span><VscGithubAlt size="3rem" className="contact__icons-box1"/></span>
+            </a>  
           </div>
         </div>
         </div>
