@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container">
         <div className="project-content">
           <p>portfolio</p>
-          <h3 className="smart">
+          <h3>
             "A creative project is a moving target. You never end up where you
             start" ~Evangeline Lily
           </h3>
