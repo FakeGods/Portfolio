@@ -86,7 +86,7 @@
   align-items: center;
   display: flex;
   gap: 10rem;
-  height: 40rem;
+  height: 30rem;
   justify-content: center;
   position: relative;
 }
@@ -103,6 +103,8 @@
   gap: 8rem;
   justify-content: center;
   position: relative;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 .hero-text h1 {
   color: #2d2e32;
@@ -138,7 +140,6 @@
   position: absolute;
 }
 .skills p {
-
   color: #2d2e32;
   font-weight: 600;
   
@@ -180,7 +181,10 @@
   display: flex;
   flex-direction: column;
 
-  
+  @media (max-width: 600px) {
+    text-align: center;
+  }
+
 
   h3 {
     font-size: headings-size;
@@ -194,6 +198,10 @@
   font-weight: 700;
   margin-bottom: 1rem;
   text-transform: uppercase;
+}
+.pro__img img {
+  height: 100%;
+  width: 100%; 
 }
 
 .projects-grid {
@@ -217,7 +225,7 @@
       gap: 8rem;
 
     }
-
+ 
     &__img {
       width: 53rem;
       height: auto;
@@ -231,7 +239,7 @@
       }
 
       img {
-        width: 100%;
+        width: auto;
         height: auto;
       }
     }
@@ -290,31 +298,7 @@
   }
 }
 
-.links {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3rem;
-  gap: 1rem;
-  align-items: center;
 
-  a {
-    
-
-    i {
-      font-size: 2.8rem;
-    }
-
-    .link-icon {
-      font-size: 2rem !important;
-    }
-
-    img {
-      width: 3.5rem;
-    }
-
-  
-  }
-}
 
 .reversed-proj {
   flex-direction: row-reverse !important;
@@ -348,8 +332,8 @@
 .contact__icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 8rem;
-  margin-top: 6rem;
+  gap: 3rem;
+  margin-top: 2rem;
   margin-left: 2rem;
 }
 .contact__icon-box {
@@ -360,12 +344,12 @@
 }
 .contact__icon-box span {
   align-items: center;
-  border-radius: 50%;
+  border-radius: 49%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   height: 5rem;
   justify-content: center;
-  width: 5rem;
+  width: 5.5rem;
   color: #2d2e32;
 }
 .contact__icon-box a {

@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <p onClick={pageUp} className="logo">
-          LESZKW
+          wl.dev
         </p>
         <ul className="desktopMenu">
           <li>
