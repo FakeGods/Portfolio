@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="hero-main">
             <div className="hero-text">
               <h1>Hello there, I'm Wiktor Leszkowicz 👋</h1>
-              <p>A beginner Front-end React Developer from Wrocław, Poland.</p>
+              <p>A beginner Front-End Developer from Wrocław, Poland.</p>
               <ul>
               
                 <img src="https://skillicons.dev/icons?i=react,javascript,html,css,docker,github" alt="skill-icon"/>
