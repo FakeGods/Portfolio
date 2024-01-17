@@ -186,7 +186,11 @@
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-
+.pro__img  {
+  width: 100%; /* Wypełnij 100% szerokości pojemnika */
+            height: 100%; /* Wypełnij 100% wysokości pojemnika */
+            object-fit: cover;
+}
 
 .pro__img img {
   margin-top: 1rem;
@@ -208,7 +212,7 @@
 
         text-transform: uppercase;
         color: black-shade;
-        margin-bottom: 2rem;
+
         position: relative;
         display: flex;
         justify-content: center;

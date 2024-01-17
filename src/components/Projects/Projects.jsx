@@ -1,4 +1,4 @@
-import Budget from "./Budget2.png";
+import Budget from "./Budget.png";
 import Currency from "./Currency Convertor1.png";
 
 const Projects = () => {
@@ -19,10 +19,7 @@ const Projects = () => {
                 </div>
               <div className="pro__text">
                 <h3>Budget</h3>
-                <p>Budget app made using HTML, CSS and JavaScript.
-12
-1231
-321
+                <p>Dynamic budgeting application, made using HTML, CSS and JavaScript to deliver a intuitive financial management  experience.This application empowers users to take control of their finances, offering a user-friendly interface for effective planning and tracking.
                 </p>
               <div className="stack"></div>
               <div className="links"></div>
@@ -34,7 +31,7 @@ const Projects = () => {
               </div>
               <div className="pro__text">
                 <h3>Currency Converter</h3>
-                <p>App made in React with usage of banking Api.</p>
+                <p>Advanced application built using React enabling users to quickly and accurately convert currencies based on the latest exchange rates using a financial API.</p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
