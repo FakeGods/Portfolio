@@ -1,4 +1,4 @@
-import Budget from "./Budget.png";
+import Budget from "./Budget2.png";
 import Currency from "./Currency Convertor1.png";
 
 const Projects = () => {
