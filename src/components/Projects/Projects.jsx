@@ -1,5 +1,5 @@
 import Budget from "./Budget.png";
-import Currency from "./Currency Convertor.png";
+import Currency from "./Currency Convertor1.png";
 
 const Projects = () => {
   return (
