@@ -11,21 +11,26 @@ const Projects = () => {
             "A creative project is a moving target. You never end up where you
             start" ~Evangeline Lily
           </h3>
+          </div>
           <div className="projects-grid">
             <div className="pro pro__1 undefined">
               <div className="pro__img">
-                <img src={Budget} alt="pro__im"></img>
+                <img src={Budget} alt="pro__img"></img>
                 </div>
               <div className="pro__text">
-                <h3>Budget </h3>
-                <p>Budget app made using HTML, CSS and JavaScript.</p>
+                <h3>Budget</h3>
+                <p>Budget app made using HTML, CSS and JavaScript.
+12
+1231
+321
+                </p>
               <div className="stack"></div>
               <div className="links"></div>
             </div>
             </div>
             <div className="pro pro__1 reversed-proj">
             <div className="pro__img">
-              <img src={Currency} alt="pro__im"></img>
+              <img src={Currency} alt="pro__img"></img>
               </div>
               <div className="pro__text">
                 <h3>Currency Converter</h3>
@@ -36,7 +41,7 @@ const Projects = () => {
             
             </div>
           </div>
-        </div>
+        
       </div>
     </section>
   );

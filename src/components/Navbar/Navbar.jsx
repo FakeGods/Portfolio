@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <p onClick={pageUp} className="logo">
-          wl.dev
+            wl.dev
         </p>
         <ul className="desktopMenu">
           <li>
@@ -29,22 +29,6 @@ const Navbar = () => {
             <a className="desktopMenuListItem" href="#contact">
               Contact
             </a>
-          </li>
-          <li className="desktopMenuListItem mobile-menu-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="mobile-menu"
-            >
-
-            </svg>
           </li>
         </ul>
 
