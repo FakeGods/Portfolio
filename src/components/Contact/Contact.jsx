@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="contact__icon-box">
             <a href="https://github.com/FakeGods">
               <span>
-                <VscGithubAlt size="3rem" className="contact__icons-box1" />
+                <VscGithubAlt size="3rem" />
               </span>
             </a>
           </div>
