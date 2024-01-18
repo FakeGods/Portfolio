@@ -2,5 +2,6 @@
 package = "@netlify/plugin-nextjs"
 
 [build]
-publish = ".next"
+publish = "out" 
+base = "."
 command = "CI= npm run build"
