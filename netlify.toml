@@ -4,3 +4,4 @@
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
