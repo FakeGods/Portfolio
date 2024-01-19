@@ -1,5 +1,3 @@
-
-
 import { CiMenuFries } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 
@@ -13,6 +11,10 @@ function Navbar() {
     mobileNav.classList.toggle('open-menu');
   };
 
+  const closeMobileMenu = () => {
+    const mobileNav = document.querySelector('.mobile-nav');
+    mobileNav.classList.remove('open-menu');
+  };
 
   return (
     <>
@@ -22,22 +24,38 @@ function Navbar() {
         </p>
         <ul className="desktopMenu">
           <li>
-            <a className="desktopMenuListItem" href="#home">
+            <a
+              className="desktopMenuListItem"
+              href="#home"
+              onClick={closeMobileMenu}
+            >
               Home
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#about">
+            <a
+              className="desktopMenuListItem"
+              href="#about"
+              onClick={closeMobileMenu}
+            >
               About
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#projects">
+            <a
+              className="desktopMenuListItem"
+              href="#projects"
+              onClick={closeMobileMenu}
+            >
               Projects
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#contact">
+            <a
+              className="desktopMenuListItem"
+              href="#contact"
+              onClick={closeMobileMenu}
+            >
               Contact
             </a>
           </li>
@@ -49,36 +67,33 @@ function Navbar() {
       {/* mobile nav */}
       <div className="mobile-nav closed-menu">
         <span onClick={toggleMobileMenu}>
-          <RxCross2 width={30} height={30} />
+          <RxCross2 width={30} height={30} className="Arr" />
         </span>
-
-           <ul className="desktopMenu-mobile">
-            <li>
-              <a className="desktopMenuListItem" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="desktopMenuListItem" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="desktopMenuListItem" href="#projects">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="desktopMenuListItem" href="#contact">
-                Contact
-              </a>
-            </li>
-
+        <ul className="desktopMenu-mobile">
+          <li>
+            <a className="desktopMenuListItem" href="#home" onClick={closeMobileMenu}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="desktopMenuListItem" href="#about" onClick={closeMobileMenu}>
+              About
+            </a>
+          </li>
+          <li>
+            <a className="desktopMenuListItem" href="#projects" onClick={closeMobileMenu}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className="desktopMenuListItem" href="#contact" onClick={closeMobileMenu}>
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </>
-
   );
 };
 
-export default Navbar
+export default Navbar;
