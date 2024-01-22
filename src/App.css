@@ -236,21 +236,24 @@ body {
 }
 .pro__img {
   display: flex;
-  width: 30rem;
+  width: 100%;
   height: auto;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  flex-grow: 1;
+  margin-right: 2rem;
 }
 
 
 .pro__text {
 	display: flex;
-	width: 30rem;
+	width: 100%;
 	height: auto;
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
+  flex-grow: 1; 
 }
 .pro__text h3{
 	text-transform: uppercase;
