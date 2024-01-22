@@ -21,8 +21,6 @@ const Projects = () => {
                 <h3>Budget</h3>
                 <p>Dynamic budgeting application, made using HTML, CSS and JavaScript to deliver a intuitive financial management  experience.This application empowers users to take control of their finances, offering a user-friendly interface for effective planning and tracking.
                 </p>
-              <div className="stack"></div>
-              <div className="links"></div>
             </div>
             </div>
             <div className="pro pro__1 reversed-proj">
@@ -32,8 +30,6 @@ const Projects = () => {
               <div className="pro__text">
                 <h3>Currency Converter</h3>
                 <p>Advanced application built using React enabling users to quickly and accurately convert currencies based on the latest exchange rates using a financial API.</p>
-              <div className="stack"></div>
-              <div className="links"></div>
             </div>
             
             </div>
