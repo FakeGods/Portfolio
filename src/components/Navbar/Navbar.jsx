@@ -7,20 +7,20 @@ const pageUp = () => {
 
 function Navbar() {
   const toggleMobileMenu = () => {
-    const mobileNav = document.querySelector('.mobile-nav');
-    mobileNav.classList.toggle('open-menu');
+    const mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.toggle("open-menu");
   };
 
   const closeMobileMenu = () => {
-    const mobileNav = document.querySelector('.mobile-nav');
-    mobileNav.classList.remove('open-menu');
+    const mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.remove("open-menu");
   };
 
   return (
     <>
       <nav className="navbar">
         <p onClick={pageUp} className="logo">
-            wl.dev
+          wl.dev
         </p>
         <ul className="desktopMenu">
           <li>
@@ -71,22 +71,38 @@ function Navbar() {
         </span>
         <ul className="desktopMenu-mobile">
           <li>
-            <a className="desktopMenuListItem" href="#home" onClick={closeMobileMenu}>
+            <a
+              className="desktopMenuListItem"
+              href="#home"
+              onClick={closeMobileMenu}
+            >
               Home
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#about" onClick={closeMobileMenu}>
+            <a
+              className="desktopMenuListItem"
+              href="#about"
+              onClick={closeMobileMenu}
+            >
               About
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#projects" onClick={closeMobileMenu}>
+            <a
+              className="desktopMenuListItem"
+              href="#projects"
+              onClick={closeMobileMenu}
+            >
               Projects
             </a>
           </li>
           <li>
-            <a className="desktopMenuListItem" href="#contact" onClick={closeMobileMenu}>
+            <a
+              className="desktopMenuListItem"
+              href="#contact"
+              onClick={closeMobileMenu}
+            >
               Contact
             </a>
           </li>
@@ -94,6 +110,6 @@ function Navbar() {
       </div>
     </>
   );
-};
+}
 
 export default Navbar;
